@@ -1,0 +1,121 @@
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 1200px;
+    height: 630px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.title_wrapper{
+    width: 350px;
+    margin-left:10px;
+}
+.title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-shadow: 5px 2px 6px #4c5258;
+    font-size: 36px;
+}
+.title_big{
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+.mocup_screen{
+    background-color:whitesmoke;
+    position: absolute;
+    height: 586px;
+    width: 271px;
+    z-index: -1;
+    left:135px;
+    top: 13px;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mocup{
+    
+    background: url(bgmocup.png) center -59px/837px no-repeat;
+    width: 675px;
+    height: 700px;
+    margin-left: 40px;
+}
+.screen_wrapper{
+    width: 270px;
+    margin-left: 93px;
+    margin-top: 90px;
+}
+.info{
+    margin-top: 55px;
+    width:100%;
+    background: rgba(4, 86, 163, 0.463);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.chat{
+    
+    overflow-y: scroll;
+    padding: 0 7px;
+    max-width: 270px;
+    height: 365px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid  rgba(4, 86, 163, 0.463);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.chat_message{
+    margin-top: 3px;
+    width: 90%;
+    padding: 3px;
+    line-height: 26px;
+    border-radius: 7px;
+    align-self: flex-start;
+    background-color:#4c52582c;
+}
+
+.send-j{
+    align-self: flex-end;
+    background-color:#1167bc82
+}
+
+.menu_wrapper{
+    margin-top: 40px;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+input{
+    margin-bottom: 10px;
+}
+input:focus{
+    box-shadow: 5px 3px 7px rgba(91, 131, 224, 0.753);
+}
+.btn{
+    cursor: pointer;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color:whitesmoke;
+    background-image: linear-gradient(rgba(26, 62, 147, 0.753)30%,rgba(24, 44, 90, 0.9)60% );
+}
+.btn:active{
+    box-shadow: 5px 3px 7px rgba(91, 131, 224, 0.753);
+    transform: scale(0.95);
+}
